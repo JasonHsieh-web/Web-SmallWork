@@ -1,0 +1,218 @@
+
+ @media screen and (max-width:768px){
+    .header{
+        width: 100%
+    }
+    .header .item {
+        position: relative;
+        justify-content: center;
+        
+    }
+    .header .item .control input{
+        display: none;
+    }
+    .header .item .txt input:checked  ~ ul {
+       left: 0;
+      transition: .3s;
+    }
+    .header .item .control{
+        opacity: 1;
+        top: 15px;
+        right: 20px;
+        
+    }
+    .header .item .control label{
+        font-size: 36px;
+        
+    }
+    .header .item .logo{
+        margin-top: 0px;
+    }
+    .header .item .txt ul{
+        height: px;
+        width: 200px;
+        position: absolute;
+        top: 0;
+        left: -1000px;
+        background-color: #dbdbdb;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .header .item .txt ul li{
+        border-bottom: 1px solid #000;
+    }
+
+}
+
+/*------------------------------------------------------------------------*/
+@media screen and (max-width:768px){
+
+    .banner-items{
+        flex-direction: column;
+    }
+    .banner-items .txt{
+        width: 100vw;
+        align-items: flex-start;
+    }
+    .banner-items .txt p,.banner-items .txt span{
+        font-size: 36px;
+    }
+    .banner-items .txt p:nth-child(1){
+        margin-left: 15px;
+    }
+    .banner-items .txt p:nth-child(3){
+        margin-left: 16px;
+    }
+
+    .banner-items .txt form{
+        margin-left: 10px;
+    }
+    .banner-items .txt form input{
+        width: 180px;
+    }
+    .banner-items .txt small{
+        margin-bottom: 15px;
+    }
+    .banner-items .pic{
+        width: 100%;
+    }
+    .banner-items .pic img{
+      width: 100%;
+      height: 430px;
+}
+
+.banner-items .txt form select{
+    -webkit-appearance: none;
+}
+.copyright{
+   
+    font-size: 16px;
+}
+}
+
+/*------------------------------------------------------------------------*/
+
+
+@media screen and (max-width:768px){
+
+.ad-item{
+    width: 100%;
+    flex-direction: column-reverse;
+}
+.ad-item .txt{
+    width: 100%;
+    padding-left: 10px;
+}
+.ad-item .txt p{
+    font-family: 'Lato', sans-serif;
+       font-size: 36px;
+       line-height: 1.4;
+
+   }
+   .ad-item .pic{
+       width: 100%;
+   }
+}
+
+/*------------------------------------------------------------------------*/
+
+
+
+@media screen and (max-width:768px){
+    
+    .bf-item{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+     
+    }
+    
+    .bf-item h1{
+       width: 360px;
+        font-size: 31px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .benefit .bf-item .split:nth-child(4){
+        margin-left: 0px;
+    }
+    .benefit .bf-item .split{
+        
+        width: 350px;
+        margin: 15px 0px;
+        padding: 10px;
+        
+        
+    }
+    .bf-item .split .good .fas{
+        font-size: 40px;
+    }
+    .bf-item .Btn {
+        width: 300px;
+        margin-left: 50px;
+        text-align: center;
+    }
+  
+}
+
+
+/*------------------------------------------------------------------------*/
+
+
+@media screen and (max-width:768px){
+
+    .share-content{
+        width: 100%;
+        flex-direction: column;
+    }
+    .share-content .txt{
+        width: 100%;
+    }
+    .share-content .txt .work ul li{
+        font-size: 12px;
+    }
+    .share-content .pic{
+        width: 100%;
+    }
+    .share-content .pic img{
+        width: 100%;
+        height: 480px;
+        vertical-align: middle;
+    }
+
+}
+
+/*------------------------------------------------------------------------*/
+
+@media screen and (max-width:768px){
+    .content{
+        
+        align-items: center;
+    }
+
+    .content h2{
+        font-size: 50px;
+    }
+    .content .nav{
+        margin-top: 0px;
+
+    }
+    .content .nav a{
+        font-size: 16px;
+    }
+    .content .social-icon .fab{
+        font-size: 26px;
+    }
+    .content .social-icon form input{
+        width: 100px;
+    }
+}
+/*------------------------------------------------------------------------*/
+/*ipad*/
+
+ @media screen and (min-width:481px) and (max-width:768px){
+
+
+ }
